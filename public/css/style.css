@@ -1,11 +1,14 @@
 
 td{
     border: 2px solid black;
-    margin: 5px
+    padding: 5px
 }
 table tr:nth-child(even){
     background-color: aqua;
 }
 tr:nth-child(9){
     color: red;
+}
+tr td :nth-child(1):first-letter{
+    font-size: x-large;
 }
